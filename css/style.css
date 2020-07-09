@@ -1,0 +1,83 @@
+ul,
+li,
+a,
+p {
+  text-emphasis: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.api_section {
+  background-color: #f5f7fe;
+}
+.about_out_section {
+  padding: 100px 50px;
+}
+.api_section .intergration {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+}
+.api_section {
+  margin-top: -20px;
+}
+.api_section_int p {
+  font-size: 12px;
+  color: #999999;
+}
+.api_section_int button {
+  margin-top: 50px;
+}
+.app-download-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+}
+.app-download-list a img {
+  width: 30px;
+}
+.app-download-list a {
+  box-shadow: 0px 0px 10px rgba(114, 111, 111, 0.43);
+  border-radius: 15px;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 40px;
+}
+
+.footer .main-footer {
+  background-color: #1b212c;
+  padding: 80px;
+}
+
+.footer-group {
+  padding: 50px 100px;
+  width: 100%;
+  color: #ffffff;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.footer-group-list .footer_link_list .footer_link_list_items {
+  list-style-type: none;
+}
+
+.footer-content .footer-group .footer-group-list {
+  list-style-type: none;
+}
+footer .footer-group-list .footer_logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer_link_list .footer_link_list_items a {
+  color: #ffffff;
+}
+
+footer .footer_header {
+  font-size: 18px;
+  font-weight: bold;
+}
