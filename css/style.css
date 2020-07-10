@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 ul,
 li,
 a,
@@ -7,20 +17,70 @@ p {
   margin: 0;
   padding: 0;
 }
+.jumbotron {
+  height: 500px;
+  position: relative;
+}
+.jumbotron .clip_art_section .clip_art_img {
+  width: 100%;
+  height: 500px;
+  margin-top: -40px;
+}
+.jumbotron .clip_art_img_gift {
+  position: absolute;
+  top: 8rem;
+  transform: rotate(22.47deg);
+  width: 70px;
+  right: 11rem;
+}
+.jumbotron .clip_art_img_gift_second {
+  position: absolute;
+  bottom: 8rem;
+  left: 12rem;
+  width: 70px;
+}
+.jumbotron_botton {
+  background-color: #7092be;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.first_img_side {
+  width: 480px;
+  height: 400px;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 10px rgba(114, 111, 111, 0.28);
+  margin-top: -90px;
+}
+.delivery_service {
+  background-color: #f5f7fe;
+}
+.your_service_icon {
+  margin-top: 70px;
+  padding-top: 50px;
+}
+.why_choose_us .about_out_section {
+  position: relative;
+  height: 500px;
+}
+.api_section .intergration {
+  height: 400px;
+  width: 100%;
+  margin-top: -55px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(142, 131, 131, 0.54);
+}
 
 .api_section {
   background-color: #f5f7fe;
 }
 .about_out_section {
   padding: 100px 50px;
-}
-.api_section .intergration {
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 50px;
-}
-.api_section {
-  margin-top: -20px;
+  position: relative;
+  width: 100%;
 }
 .api_section_int p {
   font-size: 12px;
@@ -76,7 +136,11 @@ footer .footer-group-list .footer_logo {
 .footer_link_list .footer_link_list_items a {
   color: #ffffff;
 }
-
+.footer_list_link img {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
 footer .footer_header {
   font-size: 18px;
   font-weight: bold;

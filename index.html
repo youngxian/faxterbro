@@ -13,6 +13,11 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -48,12 +53,14 @@
     </nav>
 
     <main class="">
-      <section class="jumbotron bg-primary jumbotron-fluid mx-auto">
+      <section class="jumbotron bg-primary jumbotron-fluid mx-auto mb-0">
         <div class="container">
           <div class="row mx-auto">
-            <div class="col">
+            <div class="col-lg-6">
               <div class="text-white">
-                <h1 class="display-3 font-weight-bolder">
+                <h1
+                  class="display-3 font-weight-bolder animate__animated animate__bounceIn"
+                >
                   Send and Receive items without delay
                 </h1>
                 <p>
@@ -61,25 +68,46 @@
                   items safely across Nigeria.
                 </p>
                 <form action="">
-                  <input type="button" class="text-white" value="notify me" />
+                  <input
+                    type="button"
+                    class="jumbotron_botton text-white animate__animated animate__bounceIn"
+                    value="Download app"
+                  />
                 </form>
               </div>
             </div>
-            <div class="col mx-auto offset-lg-2">
-              <img src="./img/humaaans 1.svg" alt="" class="w-50" />
+            <div class="col-lg-6 mx-auto offset-lg-2">
+              <div class="clip_art_section">
+                <img
+                  src="./img/humaaans 1.svg"
+                  alt=""
+                  class="animate__animated animate__pulse animate__slower animate__repeat-3 clip_art_img"
+                />
+                <img
+                  src="./img/pngwave 1.svg"
+                  alt=""
+                  class="clip_art_img_gift"
+                />
+                <img
+                  src="./img/pngwave 1.svg"
+                  alt=""
+                  class="clip_art_img_gift_second"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
+
+      <section class="delivery_service pt-5 pb-5">
         <div class="container">
-          <div class="why_use pt-lg-4 pb-lg-4">
+          <div class="why_use pb-lg-4">
             <div class="row mx-auto">
               <div class="col">
-                <img src="" alt="" srcset="" />
+                <div class="first_img_side"></div>
               </div>
               <div class="col">
-                <h3 class="display-4 font-weight-bold text-primary">
+                <h3 class="display-4 font-weight-bold text-primary mt-5">
                   Delivery service that really cares
                 </h3>
                 <p class="" style="font-size: 24px; color: #7092be;">
@@ -94,25 +122,29 @@
       </section>
       <section class="mt-lg-3 mb-lg-4 pb-lg-4">
         <div class="container">
-          <div class="row mx-auto">
+          <div class="">
+            <h3 class="display-4 font-weight-bold text-primary w-50">
+              Your items from order to delivery.
+            </h3>
+          </div>
+          <div class="row">
             <div class="col-lg-1">
-              <div class="d-flex flex-column justify-content-lg-center mt-lg-4">
-                <img src="./img/Ellipse 4.svg" alt="" class="mt-lg-3" />
-                <img src="./img/Line 5.svg" alt="" />
-                <img src="./img/Ellipse 4.svg" alt="" />
-                <img src="./img/Line 5.svg" alt="" />
-                <img src="./img/Ellipse 4.svg" alt="" />
+              <div
+                class="d-flex flex-column justify-content-lg-center mt-lg-5 your_service_icon"
+              >
+                <img src="./img/Ellipse 1.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Line 3.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Ellipse 1.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Line 3.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Ellipse 1.svg" alt="" class="mt-lg-3" />
               </div>
             </div>
-            <div class="col">
-              <div class="">
-                <h3 class="display-4 font-weight-bold text-primary">
-                  Your items from order to delivery.
-                </h3>
-              </div>
+            <div
+              class="col wow animate__animated animate__bounce position-relative"
+            >
               <!-- first one -->
               <div
-                class="d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
+                class="wow animate__animated animate__fadeInUp animate__slower d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
               >
                 <h1
                   class="display-1 text-primary font-weight-bolder p-0 m-0"
@@ -136,7 +168,7 @@
               </div>
               <!-- second one -->
               <div
-                class="d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
+                class="wow animate__animated animate__fadeInUp animate__slower d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
               >
                 <h1
                   class="display-1 text-primary font-weight-bolder p-0 m-0"
@@ -160,7 +192,7 @@
               </div>
               <!-- third one -->
               <div
-                class="d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
+                class="wow animate__animated animate__fadeInUp animate__slower d-flex flex-row justify-content-lg-top mt-lg-4 pt-lg-4"
               >
                 <h1
                   class="display-1 text-primary font-weight-bolder p-0 m-0"
@@ -190,65 +222,70 @@
         </div>
       </section>
 
-      <section class="">
-        <div class="bg-primary about_out_section">
-          <div class="container">
-            <div class="row mx-auto">
-              <div class="col"></div>
-              <div class="col">
-                <div class="text-lg-right">
-                  <h1 class="text-white">Why people choose us.</h1>
+      <section class="bg-primary about_out_section mx-auto">
+        <div class="container">
+          <div class="text-lg-right mr-lg-4">
+            <h1
+              class="text-white animate__animated animate__slower animate__slideInDown"
+            >
+              Why people choose us.
+            </h1>
+          </div>
+          <div class="row mx-auto">
+            <div class="col"></div>
+            <div class="col">
+              <div class="">
+                <!-- first one -->
+                <div
+                  class="mt-lg-4 pt-lg-4 animate__animated animate__zoomInDown animate__slower"
+                >
+                  <div class="pl-lg-3 text-lg-right text-white">
+                    <h3 class="font-weight-bold" style="font-size: 42px;">
+                      Faster
+                    </h3>
+                    <p style="font-size: 22px;">
+                      Deliver your items in 2 hours, within your city, and less
+                      than 48 hours to any part of Nigeria.
+                    </p>
+                  </div>
                 </div>
-                <div class="">
-                  <!-- first one -->
-                  <div class="mt-lg-4 pt-lg-4">
-                    <div class="pl-lg-3 text-lg-right text-white">
-                      <h3 class="font-weight-bold" style="font-size: 42px;">
-                        Faster
-                      </h3>
-                      <p style="font-size: 22px;">
-                        Deliver your items in 2 hours, within your city, and
-                        less than 48 hours to any part of Nigeria.
-                      </p>
-                    </div>
+                <! -- second one -->
+                <div
+                  class="mt-lg-4 pt-lg-4 animate__animated animate__zoomInDown animate__slower"
+                >
+                  <div class="pl-lg-3 text-lg-right text-white">
+                    <h3 class="font-weight-bold" style="font-size: 42px;">
+                      Safer
+                    </h3>
+                    <p style="font-size: 22px;">
+                      We reparkage your items to ensure that nothing is broken;
+                      and if anything goes wrong, we’ve got your covered.
+                    </p>
                   </div>
-                  <! -- second one -->
-                  <div class="mt-lg-4 pt-lg-4">
-                    <div class="pl-lg-3 text-lg-right text-white">
-                      <h3 class="font-weight-bold" style="font-size: 42px;">
-                        Safer
-                      </h3>
-                      <p style="font-size: 22px;">
-                        We reparkage your items to ensure that nothing is
-                        broken; and if anything goes wrong, we’ve got your
-                        covered.
-                      </p>
-                    </div>
-                  </div>
-                  <! -- third one -->
-                  <div class="mt-lg-4 pt-lg-4">
-                    <div class="pl-lg-3 text-lg-right text-white">
-                      <h3 class="font-weight-bold" style="font-size: 42px;">
-                        Affordable
-                      </h3>
-                      <p style="font-size: 22px;">
-                        It costs betwen NGN 200 to NGN 500 to deliver items
-                        within any city, and even less expensive, cross border.
-                      </p>
-                    </div>
+                </div>
+                <! -- third one -->
+                <div
+                  class="mt-lg-4 pt-lg-4 animate__animated animate__zoomInDown animate__slower"
+                >
+                  <div class="pl-lg-3 text-lg-right text-white">
+                    <h3 class="font-weight-bold" style="font-size: 42px;">
+                      Affordable
+                    </h3>
+                    <p style="font-size: 22px;">
+                      It costs betwen NGN 200 to NGN 500 to deliver items within
+                      any city, and even less expensive, cross border.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-1">
-                <div
-                  class="d-flex flex-column justify-content-lg-center mt-lg-4"
-                >
-                  <img src="./img/Ellipse 4.svg" alt="" class="mt-lg-3" />
-                  <img src="./img/Line 5.svg" alt="" />
-                  <img src="./img/Ellipse 4.svg" alt="" />
-                  <img src="./img/Line 5.svg" alt="" />
-                  <img src="./img/Ellipse 4.svg" alt="" />
-                </div>
+            </div>
+            <div class="col-lg-1">
+              <div class="d-flex flex-column justify-content-lg-center mt-lg-4">
+                <img src="./img/Ellipse 4.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Line 5.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Ellipse 4.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Line 5.svg" alt="" class="mt-lg-3" />
+                <img src="./img/Ellipse 4.svg" alt="" class="mt-lg-3" />
               </div>
             </div>
           </div>
@@ -256,9 +293,11 @@
       </section>
       <section class="api_section pb-5">
         <div class="container">
-          <div class="intergration bg-white">
-            <div class="row mx-auto">
-              <div class="col-lg-4 offset-lg-2">
+          <div class="row mx-auto">
+            <div class="col">
+              <div
+                class="intergration bg-white d-flex flex-row justify-content-lg-center"
+              >
                 <div class="api_section_int">
                   <p class="text-grey">Integrate your website, seamlessly</p>
                   <h4 class="font-weight-bolder">
@@ -269,8 +308,7 @@
                     INTEGRATE API
                   </button>
                 </div>
-              </div>
-              <div class="col-lg-4 offset-1">
+
                 <div class="api_section_int">
                   <p class="text-grey">Earn money while resting.</p>
                   <h4 class="font-weight-bolder">
@@ -300,7 +338,7 @@
               <div class="app-download-btn">
                 <ul class="app-download-group d-flex flex-row">
                   <li class="app-download-list m-3">
-                    <a href="">
+                    <a href="" class="animate__animated animate__fadeInTopLeft">
                       <img src="./img/play_store.svg" alt="" srcset="" />
                       <div class="d-flex flex-column pl-4">
                         <span class="text-left">
@@ -311,7 +349,10 @@
                     </a>
                   </li>
                   <li class="app-download-list m-3">
-                    <a href="">
+                    <a
+                      href=""
+                      class="animate__animated animate__fadeInTopRight"
+                    >
                       <img src="./img/app_store.svg" alt="" srcset="" />
                       <div class="d-flex flex-column pl-4">
                         <span class="text-left">
@@ -371,6 +412,20 @@
                   </li>
                   <li class="footer_link_list_items">
                     <a href="" class="footer_list_link">+234-813-888-4433</a>
+                  </li>
+                  <li class="footer_link_list_items">
+                    <a href="" class="footer_list_link w-25"
+                      ><img src="./img/Vector(2).png" alt=""
+                    /></a>
+                    <a href="" class="footer_list_link"
+                      ><img src="./img/Vector(3).png" alt=""
+                    /></a>
+                    <a href="" class="footer_list_link"
+                      ><img src="./img/Vector(1).png" alt=""
+                    /></a>
+                    <a href="" class="footer_list_link"
+                      ><img src="./img/Vector.png" alt=""
+                    /></a>
                   </li>
                 </ul>
               </li>
